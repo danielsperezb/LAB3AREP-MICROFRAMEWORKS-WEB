@@ -1,10 +1,19 @@
 # LAB 3 AREP - MICROFRAMEWORKS - WEB
 
-En este taller se explorará la arquitectura de las aplicaciones distribuidas. Concretamente, exploraremos la arquitectura de los servidores web y el protocolo HTTP sobre el que están soportados.
+En este taller usted debe explorar la arquitectura del microframework WEB denominado sparkweb (https://sparkjava.com/). Este micro framework permite construir aplicaciones web de manera simple usando funciones lambda.
 
+Su servidor debe:
+Permite configurar servicios web de tipo GET y POST usando funciones lambda.
+Entrega archivos estáticos como páginas HTML, CSS, JS e imágenes.
+Permite configurar el directorio de donde se leerán los archivos estáticos.
+Permite leer parámetros del query  desde los programas.
+Adicionalmente:
+
+Construya un ejemplo que muestre cómo de desarrollarían las aplicaciones en su servidor.
+Pruebe su proyecto , e incluya una prueba de su proyecto corriendo en al menos dos sistemas operativos diferentes (Windows y linux)
 ## Reto
 
-Escriba un servidor web que soporte múltiples solicitudes seguidas (no concurrentes). El servidor debe leer los archivos del disco local y retornar todos los archivos solicitados, incluyendo páginas HTML, archivos JavaScript, CSS e imágenes. Construya una aplicación web con JavaScript, CSS e imágenes para probar su servidor. Incluya en la aplicación la comunicación asíncrona con unos servicios REST en el backend. NO use frameworks web como Spark o Spring, use solo Java y las librerías para manejo de la red.
+Para este ejercicio usted deb construir un  servidor web para soportar una funcionalidad similar a la de Spark. Su aplicación debe permitir por lo menos el registro de servicios get y post usando funciones lambda. Implemente igualmente funciones que le permitan configurar el directorio de los archivos estáticos, y otra que permita cambiar el tipo de la respuesta a "application/json". Para esto solo debe usar el API básico de Java. No utilice frameworks como Spark o Spring.
 
 ## Empezando
 
@@ -96,7 +105,9 @@ Y lo podemos consultar y mostarlo comun y corriente
 ## Implementación
 
 1. Con el metodo POST lo que hacemos es agregar el recurso y con el metodo GET lo que hacemos es buscar ese recurso y traerlo.
-2. Con un select si o no preguntamos si queremos mostrar el application/json o simplemente ver el recurso comun y corriente
+2. Con un select si o no preguntamos si queremos mostrar el application/json o simplemente ver el recurso comun y corriente.
+3. 
+
 
 ## Construido con
 
