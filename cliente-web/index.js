@@ -52,8 +52,8 @@ async function obtenerInfoRecurso(){
                     <p class="card-text">NO SE ENCONTRO EL RECURSO.ESTO ES SOLO UN MENSAJE DE AVISO</p>
                 </div>
             </div>`
-contenedorCodigo.innerHTML = contenedorInfo;
-imgServer.removeAttribute('src');
+    contenedorCodigo.innerHTML = contenedorInfo;
+    imgServer.removeAttribute('src');
         }
         
     } else {
@@ -64,7 +64,6 @@ imgServer.removeAttribute('src');
 
 async function agregarRecurso() {
     const extensionRecurso2 = document.getElementById("extensionRecurso2");
-    // console.log(extensionRecurso2);
     const extensionRecurso3 = document.getElementById("extensionRecurso3");
     
     if (extensionRecurso3.value == ''){
@@ -74,7 +73,7 @@ async function agregarRecurso() {
     console.log(extensionRecurso3.value);
 
     if (extensionRecurso2.value !== '' && extensionRecurso2.value !== undefined) {
-        const url = "http://localhost:35000/" + extensionRecurso.value + "?direccionArchivo=" + extensionRecurso3.value;
+        const url = "http://localhost:35000/" + extensionRecurso2.value;
         
         try {
             const respuesta = await fetch(url, {
