@@ -18,7 +18,7 @@ Estas instrucciones te permitirán obtener una copia del proyecto y ejecutarlo e
 - Un IDE como NetBeans para poder arrancar el servidor (Nota: Hay otras maneras).
 - GitBash para clonar el proyecto en tu computadora.
 
-![SERVIDOR](http://tucatalogo.digital/img_cvds/servidor.png)
+![SERVIDOR](img/server.png)
 
 ### Instalación
 
