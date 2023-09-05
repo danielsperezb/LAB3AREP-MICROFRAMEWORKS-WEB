@@ -37,7 +37,6 @@ public class SocketInit {
 
                     String inputLine, outputLine;
 
-                    
                     while ((inputLine = in.readLine()) != null) {
                         if (inputLine.startsWith("GET /")){
                             inputLine = inputLine.split("/")[1].split(" ")[0];
@@ -48,7 +47,6 @@ public class SocketInit {
                                     get(inputLine);
 
                             out.println(outputLine);
-                            //System.out.println(recursos);
                         } else if( inputLine.startsWith("POST /") ){
                             String message = "";
                             if( inputLine.contains("direccionArchivo") ){
@@ -60,7 +58,6 @@ public class SocketInit {
 
                                 registrarRecurso(inputLine, type -> getResourceByType(type));
                                 message = "El recurso ha sido creado correctamente";
-                                System.out.println(recursos);
                             }
                             outputLine = "HTTP/1.1 200 \r\n" +
                                     "Content-Type: application/json \r\n" +

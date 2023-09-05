@@ -65,15 +65,19 @@ async function obtenerInfoRecurso(){
 async function agregarRecurso() {
     const extensionRecurso2 = document.getElementById("extensionRecurso2");
     const extensionRecurso3 = document.getElementById("extensionRecurso3");
-    
-    if (extensionRecurso3.value == ''){
-        extensionRecurso3.value = "default";
-    }
 
     console.log(extensionRecurso3.value);
 
     if (extensionRecurso2.value !== '' && extensionRecurso2.value !== undefined) {
-        const url = "http://localhost:35000/" + extensionRecurso2.value;
+        let url = "http://localhost:35000/" + extensionRecurso2.value.trim();
+
+        if (extensionRecurso3.value !== '') {
+            const direccionArchivo = extensionRecurso3.value.trim();
+            url += "?direccionArchivo=" + direccionArchivo;
+            console.log("HOLA ENGRE");
+        }
+
+        console.log(url);
         
         try {
             const respuesta = await fetch(url, {
