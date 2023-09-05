@@ -62,9 +62,15 @@ Si lo volvemos a buscar lo encotraremos y se mostrara en panalla
 
 ![](img/4.png)
 
+Si queremos verlo en application/json pasamos de NO -> SI
 
+![](img/5.png)
 
+Y le damos al boton buscar por extension
 
+![](img/6.png)
+
+Nota: Esto mismo se resume en los demas texto como css y js
 
 
 ## Implementación
