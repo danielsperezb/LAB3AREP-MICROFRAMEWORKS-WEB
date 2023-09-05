@@ -31,10 +31,10 @@ Una serie de pasos a seguir para configurar un entorno de desarrollo.
    - Si tienes una extensión en Visual Studio Code, puedes usarla para abrir un puerto y acceder a la página de la siguiente manera, por ejemplo: http://127.0.0.1:5500/index.html.
    - De manera más sencilla, simplemente abre index.html desde la carpte dandole ABRIR CON  en Mozilla o Chrome.
 
-## Ejecución de las pruebas
+## Ejecución dEL PROGRAMA
 
 
-Explica cómo ejecutar las pruebas automatizadas para este sistema.
+Explica cómo ejecutarlo por medio de pruebas para mostrar su funcionamiento
 
 ### Desglose de pruebas de extremo a extremo
 
@@ -42,9 +42,9 @@ Explica qué prueban estas pruebas y por qué.
 
 #### Pruebas con fundamentos de finalización
 
-Solucion Plateada: Con el metodo POST lo que hacemos es agregar el recurso y con el metodo GET lo que hacemos es buscar ese recurso y traerlo.
 
-1. Archivo HTML
+
+1. Archivo HTML (Lo mismo se replica en CSS y JS)
 
 Si buscamos un recurso html con el get no lo vamos a encontrar ya que no ha sido guardado.
 
@@ -73,9 +73,30 @@ Y le damos al boton buscar por extension
 Nota: Esto mismo se resume en los demas texto como css y js
 
 
+2. Archivo PNG
+
+Si buscamos un recurso png con el get no lo vamos a encontrar ya que no ha sido guardado.
+
+![](img/7.png)
+
+Lo agregamos
+
+![](img/8.png)
+
+![](img/9.png)
+
+Y lo podemos consultar y mostarlo comun y corriente
+
+![](img/10.png)
+
+![](img/11.png)
+
+
+
 ## Implementación
 
-1. 
+1. Con el metodo POST lo que hacemos es agregar el recurso y con el metodo GET lo que hacemos es buscar ese recurso y traerlo.
+2. Con un select si o no preguntamos si queremos mostrar el application/json o simplemente ver el recurso comun y corriente
 
 ## Construido con
 
