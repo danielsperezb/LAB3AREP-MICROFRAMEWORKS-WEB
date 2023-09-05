@@ -33,6 +33,7 @@ Una serie de pasos a seguir para configurar un entorno de desarrollo.
 
 ## Ejecución de las pruebas
 
+
 Explica cómo ejecutar las pruebas automatizadas para este sistema.
 
 ### Desglose de pruebas de extremo a extremo
@@ -41,7 +42,28 @@ Explica qué prueban estas pruebas y por qué.
 
 #### Pruebas con fundamentos de finalización
 
+Solucion Plateada: Con el metodo POST lo que hacemos es agregar el recurso y con el metodo GET lo que hacemos es buscar ese recurso y traerlo.
+
 1. Archivo HTML
+
+Si buscamos un recurso html con el get no lo vamos a encontrar ya que no ha sido guardado.
+
+![](img/1.png)
+
+Lo podemos agregar
+
+![](img/2.png)
+
+Podemos ver en la consola para mayor informacion
+
+![](img/3.png)
+
+Si lo volvemos a buscar lo encotraremos y se mostrara en panalla
+
+![](img/4.png)
+
+
+
 
 
 
