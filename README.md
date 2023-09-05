@@ -106,7 +106,7 @@ Y lo podemos consultar y mostarlo comun y corriente
 
 1. Con el metodo POST lo que hacemos es agregar el recurso y con el metodo GET lo que hacemos es buscar ese recurso y traerlo.
 2. Con un select si o no preguntamos si queremos mostrar el application/json o simplemente ver el recurso comun y corriente.
-3. 
+3. Cmbiar el lugar donde se alamcenan los archivos con un input
 
 
 ## Construido con
